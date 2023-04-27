@@ -1,0 +1,141 @@
+.choose-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.choose-text {
+  font-size: 40px;
+}
+.choose-text01 {
+  font-style: normal;
+  font-family: Ubuntu;
+  font-weight: 900;
+}
+.choose-text02 {
+  color: #37439c;
+  font-style: normal;
+  font-family: Ubuntu;
+  font-weight: 900;
+}
+.choose-text04 {
+  font-size: 60px;
+  font-style: italic;
+  font-family: Ubuntu;
+  font-weight: 400;
+}
+.choose-container1 {
+  flex: 0 0 auto;
+  width: 1520px;
+  height: 591px;
+  display: flex;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.choose-feature-card {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  padding-top: 32px;
+  flex-direction: column;
+}
+.choose-image {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+.choose-text05 {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.choose-text06 {
+  color: var(--dl-color-gray-700);
+  text-align: center;
+}
+.choose-feature-card1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  padding-top: 32px;
+  flex-direction: column;
+}
+.choose-image1 {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+.choose-text07 {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.choose-text08 {
+  color: var(--dl-color-gray-700);
+  text-align: center;
+}
+.choose-text09 {
+  align-self: center;
+}
+@media(max-width: 767px) {
+  .choose-image {
+    width: 332px;
+  }
+  .choose-image1 {
+    width: 332px;
+  }
+}
+@media(max-width: 479px) {
+  .choose-text {
+    font-size: 40px;
+  }
+  .choose-text01 {
+    font-size: 70px;
+    font-style: normal;
+    font-family: Ubuntu;
+    font-weight: 900;
+  }
+  .choose-text02 {
+    color: #37439c;
+    font-size: 70px;
+    font-style: normal;
+    font-family: Ubuntu;
+    font-weight: 900;
+  }
+  .choose-text03 {
+    font-size: 40px;
+  }
+  .choose-text04 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: 400;
+  }
+  .choose-image {
+    width: 160px;
+    height: 116px;
+  }
+  .choose-image1 {
+    width: 160px;
+    height: 116px;
+  }
+  .choose-text09 {
+    text-align: center;
+  }
+}
