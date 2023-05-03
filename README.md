@@ -1,3 +1,6 @@
+> Stato progetto: creazione Homepage ITA/EN
+> In sviluppo: Creazione LoginPage
+
 # ConnectED
 
 ## EN 
