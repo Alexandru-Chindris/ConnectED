@@ -1,4 +1,4 @@
-> Stato progetto: creazione Homepage ITA/EN <br>
+> Stato progetto: <br>
 > In sviluppo: Creazione LoginPage
 
 # ConnectED
