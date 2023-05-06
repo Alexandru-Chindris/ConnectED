@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
 }
 .choose-text {
   font-size: 40px;
@@ -61,7 +62,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .choose-text06 {
-  color: var(--dl-color-gray-700);
+  color: #000000;
   text-align: center;
 }
 .choose-feature-card1 {
@@ -86,7 +87,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .choose-text08 {
-  color: var(--dl-color-gray-700);
+  color: #000000;
   text-align: center;
 }
 .choose-text09 {

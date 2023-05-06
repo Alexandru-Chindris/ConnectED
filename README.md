@@ -1,10 +1,9 @@
-> Stato progetto: <br>
-> In sviluppo: Creazione LoginPage
+> current version: stable 1.0
 
 # ConnectED
 
 ## EN 
-This container contains a registry project developed with HTML, CSS , Javascript (Front-end)(Back-end), MongoDB, MongoExpress (Database, NoSQL). The project was implemented through the structure of microservices with the help of docker technology (https://www.docker.com/). The web page is available in two languages.
+This container contains a registry project developed with HTML, CSS , Javascript (Front-end), PHP(Back-end), MongoDB, MongoExpress (Database, NoSQL). The project was implemented through the structure of microservices with the help of docker technology (https://www.docker.com/). The web page is available in two languages.
 
 ### Disclaimer
 **I never intend to infrange on the rights of others. There are third-party images sourced from Pexels (https://www.pexels.com/it-it/license/). If you find something that you believe is a violation of your rights before taking any legal action contact me, I will be happy to accommodate your request and remove the article in question**
@@ -23,7 +22,7 @@ Cos'è ConnectED?
 ConnectED è un idea di un registro elettronico realizzato da me come progetto per mettere in pratica le mie competenze.
 Per lo sviluppo di ConnectED ho scelto di non utilizzare framework in quanto sto sviluppando questa applicazione a ridosso dell'esame di stato dove non potrò utilizzare il computer e dovrò scrivere a mano tutto il codice.
 
-## Ambiente di sviluppo con Docker  
+## Ambiente di sviluppo con Docker
 Creazione della rete
 ```shell
 docker network create ConnectED-network
@@ -48,20 +47,15 @@ sudo nano /etc/hosts
 /etc/hosts
 ```shell
   GNU nano 6.4                                                                                     /etc/hosts                                                                                               
-
 127.0.0.1       localhost    ConnectED-mongoDB
 127.0.1.1       linux
 
 ```
 
 Mongo-Express
-```shell
+```
 docker run -d --name ConnectED-mongoExpress --network ConnectED-network -p 8081:8081 -e ME_CONFIG_MONGO_DB_ADMINUSERNAME=admin -e ME_CONFIG_MONGO_DB_ADMINPASSWORD=admin -e ME_CONFIG_MONGO_DB_SERVER=mongodb -e ME_CONFIG_MONGODB_URL="mongodb://admin:admin@ConnectED-mongoDB:27017" mongo-express
 ```
 
-Riassunto porte
-```shell
-8081 -> Mongo Express
-8080 -> Nginx
-```
-
+# Versions
+> 06/05/2023 Stable 1.0 - Docker setup, Static Landing Page (HTML, CSS)

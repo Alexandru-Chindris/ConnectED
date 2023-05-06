@@ -1,0 +1,192 @@
+.professore-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.professore-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.professore-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  min-width: 100%;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-image: linear-gradient(0deg, rgb(189, 195, 199) 0.00%,rgb(44, 62, 80) 100.00%);
+}
+.professore-text {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-style: italic;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+.professore-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-900);
+}
+.professore-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.professore-text03 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: Merriweather;
+  font-weight: 900;
+}
+.professore-button {
+  display: flex;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: #ffffff;
+  border-width: 1.2px;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0);
+}
+.professore-text07 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.professore-features {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  min-width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  background-color: rgba(228, 221, 221, 0.75);
+}
+.professore-text08 {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.professore-text10 {
+  color: #13ceff;
+}
+.professore-footer {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  min-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: 28px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-image: linear-gradient(180deg, rgb(189, 195, 199) 0.00%,rgb(44, 62, 80) 100.00%);
+}
+.professore-text12 {
+  color: rgb(255, 255, 255);
+}
+.professore-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width: 1200px) {
+  .professore-text08 {
+    font-size: 2rem;
+  }
+}
+@media(max-width: 991px) {
+  .professore-text08 {
+    align-self: center;
+  }
+  .professore-text12 {
+    color: rgb(255, 255, 255);
+  }
+}
+@media(max-width: 767px) {
+  .professore-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .professore-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .professore-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .professore-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .professore-text12 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .professore-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .professore-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .professore-text03 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .professore-text07 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .professore-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .professore-text08 {
+    font-size: 2rem;
+    align-self: flex-start;
+  }
+  .professore-text10 {
+    color: #13ceff;
+  }
+  .professore-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .professore-text12 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
