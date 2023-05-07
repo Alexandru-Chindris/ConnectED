@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css" type="text/css" />
+    <title>ConnectED Login</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form>
+                <h1 class="title1">ConnectED &nbsp;Login</h1><br><br>
+                <label class="lab" for="name">Username:</label></br>
+                <p class="little-text">note: no number allowed in username</p>
+                <input class="in" type="text" id="username" name="username" pattern="[a-z]*"></br></br>
+                <label class="lab" for="name">Password:</label></br>
+                <input class="in" type="password" id="pwd" name="pwd"></br></br>
+                <input type="checkbox" id="remeber" name="remember" value="1">
+                <!-- To do reminder in jasvascript using sessions-->
+                <label for="rember">Remember me</label>
+                <button class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+    <script src="validate.js"></script>
+</body>
+</html>
